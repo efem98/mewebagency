@@ -1,0 +1,121 @@
+/* ABOUT PAGE */
+
+.about{
+    text-align: center;
+    margin-top: 100px;
+    text-transform: capitalize;
+
+}
+.about h3{
+    font-size: 50px;
+    font-weight: bold;
+     font-family: "Lilita One", sans-serif;
+     color: rgb(4, 81, 133);
+ 
+}
+.about h4{
+    font-size: 15px;
+      color: rgb(149, 181, 202);
+}
+.about-me{
+    display: flex;
+    justify-content: space-around;
+    margin: 100px;
+   
+    align-items: center;
+}
+.right img{
+    width: 450px;
+}
+.left h3{
+    
+       color: rgb(149, 181, 202);
+}
+.left{
+    margin-top: 100px ;
+    margin-left: 40px;
+}
+.left h1{
+    text-transform: capitalize;
+    color:rgb(4, 81, 133) ;
+    font-weight: bold;
+}
+.left p{
+    max-width: 650px;
+    margin-top: 15px;
+}
+.bottom{
+    display: flex;
+    /* justify-content: space-between; */
+    margin-top: 20px;
+}
+.socials{
+    display: flex;
+   
+}
+.socials li a i{
+     padding: 20px;
+      color: #073c6b; 
+}
+
+/* services */
+
+.services{
+    margin: 100px ;
+
+}
+.services h3{
+    font-size: 12px;
+       color: rgb(149, 181, 202);
+}
+.services h1{
+     font-family: "Lilita One", sans-serif;
+    font-size: 40px;
+       color: #073c6b; 
+   
+}
+.box{
+     display: flex;
+    flex-wrap: wrap;
+       margin-top: 40px;
+           gap: 20px;
+    
+}
+
+
+.box-content{
+   
+    width: 380px;
+    height:230px;
+    background:linear-gradient(to right, #090f10, #1346ad, #1346ad);
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+
+ 
+    border-radius: 3px;
+}
+.box-content h3{
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-bottom: 12px;
+
+}
+.soo{
+    font-size: 30px;
+    color: #fff;
+     margin-bottom: 15px;
+}
+.twob{
+    text-align: center;
+    height: 400px;
+    
+}
+.twob h4{
+    font-size: 30px;
+    color: rgb(234, 229, 229);
+}
+.twob p{
+line-height: 2.5;
+}

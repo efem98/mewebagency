@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Brush Writing Animation</title>
+
+<style>
+    body {
+        margin: 0;
+        height: 100vh;
+        background: #111;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    svg {
+        width: 80%;
+        max-width: 800px;
+    }
+
+    .text-path {
+        fill: none;
+        stroke: #ff4d4d;
+        stroke-width: 3;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-dasharray: 2000;
+        stroke-dashoffset: 2000;
+        animation: write 6s ease forwards;
+    }
+
+    @keyframes write {
+        to {
+            stroke-dashoffset: 0;
+        }
+    }
+
+    .brush {
+        position: absolute;
+        width: 80px;
+        animation: moveBrush 6s ease forwards;
+    }
+
+    @keyframes moveBrush {
+        0%   { left: 20%; top: 55%; }
+        50%  { left: 50%; top: 45%; }
+        100% { left: 75%; top: 55%; }
+    }
+</style>
+</head>
+<body>
+
+<svg viewBox="0 0 1000 200">
+    <text x="50" y="120"
+          font-size="120"
+          font-family="Brush Script MT, cursive"
+          class="text-path">
+        Efemena
+    </text>
+</svg>
+
+<img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" class="brush">
+
+</body>
+</html>
