@@ -17,17 +17,23 @@
         <div class="logo">
         <img src="images/efe.png">
     </div>
+    <ul class="sidebar">
+       <li><i onclick="hideSidebar()" class="fa-solid fa-xmark"></i></li>  
+       <li ><a href="#about" data-open="about">About</a></li>
+    <li ><a href="#portfolio" data-open="portfolio">Portfolio</a></li>
+    <li ><a href="#contact" data-open="contact">Contact</a></li>
+   
+    </ul>
 
     <ul class="list">
-       <li><a href="#about" data-open="about">About</a></li>
-    <li><a href="#portfolio" data-open="portfolio">Portfolio</a></li>
-    <li><a href="#contact" data-open="contact">Contact</a></li>
+       <li  class="hide"><a href="#about" data-open="about">About</a></li>
+    <li  class="hide"><a href="#portfolio" data-open="portfolio">Portfolio</a></li>
+    <li  class="hide"><a href="#contact" data-open="contact">Contact</a></li>
+    <li class=" menu"> <i  onclick="showSidebar()" class="fa-solid fa-bars-staggered"></i></li>
     </ul>
 
 
-   <div class="toggle">
-        <button class="togglebutton"></button>
-    </div>
+
    </nav>
 
 
