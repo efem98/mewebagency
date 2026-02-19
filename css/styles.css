@@ -124,7 +124,7 @@ nav{
   right: 0;
   height: 50vh;
   width: 250px;
-  z-index: 999;
+  z-index: 9999;
   backdrop-filter: blur(10px);
   color: #090f10;
   /* background-color: #e6ebed; */
